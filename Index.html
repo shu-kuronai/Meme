@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programmer Memes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Programmer Memes</h1>
+    <div class="post-meme-form">
+      <h2>Post a New Meme</h2>
+      <input type="text" id="memeTitle" placeholder="Meme Title" class="input" />
+      <input type="text" id="imageUrl" placeholder="Image URL" class="input" />
+      <textarea id="description" placeholder="Description (optional)" class="textarea"></textarea>
+      <button onclick="postMeme()">Post Meme</button>
+    </div>
+    <div id="memeContainer" class="meme-list">
+      <!-- Memes will be dynamically inserted here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
